@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE BAND</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -32,37 +34,97 @@
             </ul>
             <form action="" method="post">
                 <input type="text" name="search">
-                <button type="submit">text</button>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
-            <div><i class="fa-solid fa-bars"></i></div>
+            <div id="burger"><i class="fa-solid fa-bars"></i></div>
         </nav>
         <div id="slider">
             <p>Los Angeles</p>
             <p>We had the best time playing at Venice Beach!</p>
-
         </div>
     </header>
     <main>
         <section id="band">
             <h1>THE BAND</h1>
-            <p>We love music</p>
+            <p class="love">We love music</p>
             <div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore harum inventore saepe provident
                     commodi. Similique, dignissimos sunt? Explicabo, eligendi ducimus modi labore voluptatibus natus
                     sequi, ut aliquam sed accusantium vel.</p>
-                <div>
-                    <p>Name</p><img src="./assets/img/bandmember.jpg" alt="name">
-                </div>
-                <div>
-                    <p>Name</p><img src="./assets/img/bandmember.jpg" alt="name">
-                </div>
-                <div>
-                    <p>Name</p><img src="./assets/img/bandmember.jpg" alt="name">
+                <div class="name">
+                    <figure>
+                        <figcaption>Name</figcaption>
+                        <img src="./assets/img/bandmember.jpg" alt="name">
+                    </figure>
+                    <figure>
+                        <figcaption>Name</figcaption>
+                        <img src="./assets/img/bandmember.jpg" alt="name">
+                    </figure>
+                    <figure>
+                        <figcaption>Name</figcaption>
+                        <img src="./assets/img/bandmember.jpg" alt="name">
+                    </figure>
                 </div>
             </div>
+        </section>
+        <section id="tour">
             <h2>TOUR DATES</h2>
-            <p>Remember to book your tickets!</p>
-
+            <p class="remember">Remember to book your tickets!</p>
+            <div class="month">
+                <p><span class="month p">September</span><span class="sold">Sold Out</span></p>
+                <p><span class="month p">October</span><span class="sold">Sold Out</span></p>
+                <p><span class="month p">November</span><span class="trois">3</span></p>
+            </div>
+            <div class="cards">
+                <img src="./assets/img/newyork.jpg" alt="newyork">
+                <h3>New York</h3>
+                <p class="Dates">Fri 27 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <form action="" method="post">
+                    <button type="submit">Buy Tickets</button>
+                </form>
+            </div>
+            <div class="cards">
+                <img src="./assets/img/paris.jpg" alt="paris">
+                <h3>Paris</h3>
+                <p class="Dates">Sat 28 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <form action="" method="post">
+                    <button type="submit">Buy Tickets</button>
+                </form>
+            </div>
+            <div class="cards">
+                <img src="./assets/img/sanfran.jpg" alt="sanfranscisco">
+                <h3>San Francisco</h3>
+                <p class="Dates">Sun 29 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <form action="" method="post">
+                    <button type="submit">Buy Tickets</button>
+                </form>
+            </div>
+        </section>
+        <section id="contact">
+            <h4>CONTACT</h4>
+            <p class="fan">Fan? Drop a note!</p>
+            <div class="infoscontact">
+            <p class="localisation"><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+            <p class="phone"><i class="fa-solid fa-phone"></i> Phone + 00 151515</p>
+            <p class="mail"><i class="fa-solid fa-envelope"></i> Mail: mail@mail.com</p>
+        </div>
+        <form action="" method="post">
+            <div>
+                <input type="text" placeholder="Name" name="name" required>
+            </div>
+            <div>
+                <input type="email" placeholder="Email" name="mail">
+            </div>
+            <div>
+                <input type="text" placeholder="Message" name="message">
+            </div>
+            <div>
+                <input type="submit" value="SEND" name="submited" id="send">
+            </div>
+        </form>
         </section>
     </main>
     <footer></footer>
