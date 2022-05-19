@@ -29,7 +29,7 @@
                     <li>CONTACT</li>
                 </a>
                 <a href="">
-                    <li>MORE</li>
+                    <li>MORE <i class="fa-solid fa-caret-down"></i></li>
                 </a>
             </ul>
             <form action="" method="post">
@@ -50,7 +50,11 @@
             <div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore harum inventore saepe provident
                     commodi. Similique, dignissimos sunt? Explicabo, eligendi ducimus modi labore voluptatibus natus
-                    sequi, ut aliquam sed accusantium vel.</p>
+                    sequi, ut aliquam sed accusantium vel. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quidem dolor suscipit a quis, ad delectus nam officia dolore, illum doloribus culpa harum aperiam
+                    reprehenderit rerum facere iure in. Ea, qui? Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Velit atque ipsa culpa laboriosam est minima aspernatur beatae voluptatem repellendus ipsum
+                    nesciunt, obcaecati iure quos voluptates! Inventore maxime beatae aliquam laborum?</p>
                 <div class="name">
                     <figure>
                         <figcaption>Name</figcaption>
@@ -72,62 +76,81 @@
             <p class="remember">Remember to book your tickets!</p>
             <div class="month">
                 <p><span class="month p">September</span><span class="sold">Sold Out</span></p>
+                <hr>
                 <p><span class="month p">October</span><span class="sold">Sold Out</span></p>
+                <hr>
                 <p><span class="month p">November</span><span class="trois">3</span></p>
             </div>
-            <div class="cards">
-                <img src="./assets/img/newyork.jpg" alt="newyork">
-                <h3>New York</h3>
-                <p class="Dates">Fri 27 Nov 2016</p>
-                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <form action="" method="post">
-                    <button type="submit">Buy Tickets</button>
-                </form>
-            </div>
-            <div class="cards">
-                <img src="./assets/img/paris.jpg" alt="paris">
-                <h3>Paris</h3>
-                <p class="Dates">Sat 28 Nov 2016</p>
-                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <form action="" method="post">
-                    <button type="submit">Buy Tickets</button>
-                </form>
-            </div>
-            <div class="cards">
-                <img src="./assets/img/sanfran.jpg" alt="sanfranscisco">
-                <h3>San Francisco</h3>
-                <p class="Dates">Sun 29 Nov 2016</p>
-                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <form action="" method="post">
-                    <button type="submit">Buy Tickets</button>
-                </form>
+            <div id="cardscollection">
+                <div class="cards">
+                    <img src="./assets/img/newyork.jpg" alt="newyork">
+                    <h3>New York</h3>
+                    <p class="Dates">Fri 27 Nov 2016</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <form action="" method="post">
+                        <button type="submit">Buy Tickets</button>
+                    </form>
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/paris.jpg" alt="paris">
+                    <h3>Paris</h3>
+                    <p class="Dates">Sat 28 Nov 2016</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <form action="" method="post">
+                        <button type="submit">Buy Tickets</button>
+                    </form>
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/sanfran.jpg" alt="sanfranscisco">
+                    <h3>San Francisco</h3>
+                    <p class="Dates">Sun 29 Nov 2016</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <form action="" method="post">
+                        <button type="submit">Buy Tickets</button>
+                    </form>
+                </div>
             </div>
         </section>
         <section id="contact">
             <h4>CONTACT</h4>
             <p class="fan">Fan? Drop a note!</p>
-            <div class="infoscontact">
-            <p class="localisation"><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
-            <p class="phone"><i class="fa-solid fa-phone"></i> Phone + 00 151515</p>
-            <p class="mail"><i class="fa-solid fa-envelope"></i> Mail: mail@mail.com</p>
-        </div>
-        <form action="" method="post">
-            <div>
-                <input type="text" placeholder="Name" name="name" required>
+            <div id="contactchicago">
+                <div class="infoscontact">
+                    <p class="localisation"><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+                    <p class="phone"><i class="fa-solid fa-phone"></i> Phone + 00 151515</p>
+                    <p class="mail"><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+                </div>
+                <form action="" method="post">
+                    <div>
+                        <input type="text" placeholder="Name" name="name" required>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" name="mail">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Message" name="message">
+                    </div>
+                    <div>
+                        <input type="submit" value="SEND" name="submited" id="send">
+                    </div>
             </div>
-            <div>
-                <input type="email" placeholder="Email" name="mail">
+            </form>
+            <div class="map">
+                <img src="./assets/img/map.jpg" alt="">
             </div>
-            <div>
-                <input type="text" placeholder="Message" name="message">
-            </div>
-            <div>
-                <input type="submit" value="SEND" name="submited" id="send">
-            </div>
-        </form>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div id="social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Powered by w3.css</p>
+    </footer>
 
 
 </body>

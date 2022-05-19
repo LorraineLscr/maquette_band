@@ -10,7 +10,8 @@
 }
 
 
-/*header*/
+/* HEADER */
+
 header nav a,
 header form {
     display: none;
@@ -18,15 +19,16 @@ header form {
     text-decoration: none;
 }
 
-header nav a, #burger{
+header nav a,
+#burger {
     padding: .7rem;
 }
 
-header nav a:hover{
+header nav a:hover {
     background-color: grey;
 }
 
-header nav a:visited{
+header nav a:visited {
     background-color: grey;
 }
 
@@ -46,7 +48,7 @@ ul {
     list-style-type: none;
 }
 
-#slider{
+#slider {
     height: 25vh;
     background-image: url(../img/la.jpg);
     background-position: center;
@@ -56,26 +58,28 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    color:white;
+    color: white;
 
 }
 
-#slider p{
+#slider p {
     display: none;
 }
 
-/*section band*/ 
+/* SECTION BAND */
 
-h1{
-    font-size: 2.3rem;
+h1 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2.5rem; 
+    margin-top: 2.5rem;
     margin-bottom: 1rem;
 }
 
-.love{
+.love {
     color: grey;
     display: flex;
     justify-content: center;
@@ -83,136 +87,313 @@ h1{
     font-style: italic;
 }
 
-#band p{
-   padding: 0.5rem;
+#band p {
+    padding: 0.5rem;
+    font-size: 0.8rem;
 }
 
-figcaption{
+figcaption {
     text-align: center;
     padding: 1rem;
 }
 
-.name{
+.name {
     display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 3.5rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+    font-size: 0.8rem
 }
 
-.name img{
+.name img {
     border-radius: 0.4rem;
     margin-bottom: 1rem;
 }
 
-/*section tour*/
+/* SECTION TOUR */
 
-#tour{
+#tour {
     background-color: black;
     padding: 1rem;
 }
 
-h2{
+h2 {
     background-color: black;
     color: white;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2.5rem; 
+    padding-top: 2.5rem;
     padding-bottom: 1rem;
 }
 
-.remember{
+.remember {
     color: grey;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
+    font-size: 0.8rem;
     padding-bottom: 2rem;
 }
 
-.month{
+.month {
     background-color: white;
     margin-bottom: 2rem;
+    font-size: 0.8rem;
+    
 }
 
-.trois{
-color: white;
-background-color: black;
-padding-left: 0.5rem;
-padding-right: 0.5rem;
-border-radius: 50%;
-float: right;
+.trois {
+    color: white;
+    background-color: black;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border-radius: 50%;
+    float: right;
 }
 
-.month p{
+.month p {
     color: grey;
     padding: 0.5rem;
 }
 
-.sold{
+.sold {
     background-color: red;
     color: white;
     margin-left: 1rem;
+    padding: 0.3rem;
+    font-weight: bold;
 }
 
-.Dates{
+.Dates {
     color: grey;
     margin: 0.5rem;
 }
 
-button{
+button {
     background-color: black;
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: 0.5rem;
     padding: 0.5rem;
     border: none;
 
 }
-.cards{
+
+.cards {
     background-color: white;
     margin-bottom: 1rem;
+    font-size: 0.8rem;
 }
 
-.cards img{
+.cards img {
     width: 100%;
 }
-.cards p{
-margin: 0.5rem;
-}
 
-h3{
+.cards p {
     margin: 0.5rem;
 }
 
-/*section Contact*/
+h3 {
+    margin: 0.5rem;
+}
 
-h4{
-    font-size: 2.3rem;
+/* SECTION CONTACT */
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2.5rem; 
+    margin-top: 2.5rem;
     margin-bottom: 1rem;
 }
 
-.fan{
+.fan {
     color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
     padding-bottom: 2rem;
+    font-size: 0.8rem;
 }
 
-.infoscontact{
-    font-size: 1.2rem;
+.infoscontact {
+    font-size: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
-form{
+#contact input {
     width: 100%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#contact #send {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    width: fit-content;
+    float: right;
+    margin: 1rem;
+}
+
+.map img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+/* FOOTER */
+
+footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+i {
+    font-size: 1rem;
+}
+
+footer p {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+
+    /* HEADER */
+
+    header nav a,
+    header form {
+        display: block;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    header input {
+        background-color: black;
+        border: none;
+    }
+
+    #slider {
+        height: 50vh;
+    }
+
+    #slider p {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    #slider p:first-child {
+        font-size: 1.2rem;
+        padding: 0.7rem;
+    }
+
+    #slider p:last-child {
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        padding-bottom: 3rem;
+        font-weight: 600;
+    }
+
+    /* SECTION BAND */
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around
+    }
+
+    #band {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    figure img {
+        height: 15vh;
+    }
+
+    /* SECTION TOUR */ 
+
+    .month {
+        margin: 0 auto; 
+        align-content: flex-start;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    #cardscollection{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+   
+    .cards{
+        width: 32%;
+    }
+
+    /* SECTION CONTACT */
+
+    #contactchicago{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #contactchicago div:last-child{
+        margin-left: auto;
+    }
+
+    .infoscontact, #contactchicago form{
+        width:50%;
+    }
+   
+    #contact input{
+        padding: 0.3rem;
+    }
+
+    #contactchicago form{
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #contactchicago form div:nth-child(1), 
+    #contactchicago form div:nth-child(2){
+        width: 50%;
+    }
+
+    #contactchicago form div:nth-child(3){
+        width: 100%;
+    }
+
+    .map img {
+        height: 50vh;
+    }
 }
