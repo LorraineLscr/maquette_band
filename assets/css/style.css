@@ -48,6 +48,29 @@ ul {
     list-style-type: none;
 }
 
+#moreBtn{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#subMenu{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    top: 2.8rem;
+}
+
+#subMenu li{
+    color: black;
+}
+
+.hide{
+    height: 0; 
+}
+
 #slider {
     height: 25vh;
     background-image: url(../img/la.jpg);
